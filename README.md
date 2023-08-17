@@ -1,6 +1,7 @@
 # Python3 - Samba
 
 We carry out actions with samba through python (upload, download, list, delete).
+Using action from .env we can select what we want to do, we have available: upload, download, list, delete
 
 ## Requirements
 Use [git](https://git-scm.com/) to clone the repository.
