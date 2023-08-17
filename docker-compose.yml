@@ -1,0 +1,12 @@
+version: '3'
+services:
+  python3-samba:
+    image: alonsovera/python3-samba:v1
+    working_dir: /usr/src/myapp
+    volumes:
+      - "./files:/usr/src/myapp/"
+      
+    env_file:
+      - .env
+    command: python samba.py
+    
