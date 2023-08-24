@@ -47,7 +47,7 @@ local_path=file.txt
 docker run -d \
   --name python3-samba \
   --workdir /usr/src/myapp \
-  -v ./files:/usr/src/myapp/ \
+  -v ${PWD}/files:/usr/src/myapp/ \
   --env-file .env \
   alonsovera/python3-samba:v1 \
   python samba.py
