@@ -16,7 +16,7 @@ It is also compatible with [docker-compose](https://docs.docker.com/compose/).
 git clone https://github.com/alonsoveraGit/python3-samba.git 
 cd python3-samba
 
-cp env.example to .env
+cp env.example .env
 
 docker-compose up
 
